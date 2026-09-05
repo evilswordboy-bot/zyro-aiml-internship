@@ -1,0 +1,10 @@
+streamlit
+PyMuPDF
+pytesseract
+Pillow
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
