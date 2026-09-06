@@ -3,11 +3,11 @@
 > **Production-Grade AI/ML Projects & Document Intelligence Platform**  
 > **Author / Developer:** Sakthibalan S (`evilswordboy-bot`)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Cloudflare%20Edge-orange.svg?style=for-the-badge&logo=cloudflare)](https://joining-hiv-assignment-dry.trycloudflare.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Cloudflare%20Edge-orange.svg?style=for-the-badge&logo=cloudflare)](https://spaces-flyer-sticks-surgeon.trycloudflare.com)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue.svg?style=for-the-badge&logo=github)](https://github.com/evilswordboy-bot/zyro-aiml-internship)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB.svg?style=for-the-badge&logo=python)](https://www.python.org/)
 
-**🌐 Direct Live Public URL:** **[https://joining-hiv-assignment-dry.trycloudflare.com](https://joining-hiv-assignment-dry.trycloudflare.com)**
+**🌐 Direct Live Public URL:** **[https://spaces-flyer-sticks-surgeon.trycloudflare.com](https://spaces-flyer-sticks-surgeon.trycloudflare.com)**
 
 ---
 
