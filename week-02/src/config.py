@@ -1,5 +1,5 @@
 """
-Central Configuration for Zyroo AI Document Intelligence Platform.
+Central Configuration for AI Document Intelligence Platform.
 Defines UI themes, supported file formats, classification dictionaries,
 and pattern matching configurations.
 """

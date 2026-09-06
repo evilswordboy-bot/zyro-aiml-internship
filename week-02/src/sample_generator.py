@@ -1,7 +1,7 @@
 """
-Sample Document Generator for Zyroo AI Document Intelligence Platform.
-Generates genuine, authentic PDF test documents matching the official Zyroo specification:
-1. invoice_001.pdf: Matches official Zyroo Task 2 example (INV-1024, ABC Technologies, PKR 125,000)
+Sample Document Generator for AI Document Intelligence Platform.
+Generates genuine, authentic PDF test documents matching the standard document specification:
+1. invoice_001.pdf: Matches official standard invoice example (INV-1024, ABC Technologies, PKR 125,000)
 2. invoice_002.pdf: Multi-item commercial cloud invoice (INV-2026-889, $4,850.00)
 3. resume_001.pdf: Senior AI/ML Engineer resume with structured skills and contact info
 4. sample_other.pdf: Unstructured project meeting notes & guidelines (tests 'Other' classification)

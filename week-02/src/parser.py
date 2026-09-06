@@ -1,5 +1,5 @@
 """
-Information Extraction Engine for Zyroo AI Document Intelligence Platform.
+Information Extraction Engine for AI Document Intelligence Platform.
 Extracts key structured entities from Invoices and Resumes:
 - Invoice: Invoice Number, Date, Company/Vendor Name, Total Amount
 - Resume: Candidate Name, Email, Phone, Categorized Skills

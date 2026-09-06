@@ -1,5 +1,5 @@
 """
-Text and metadata extraction engine for Zyroo AI Document Intelligence Platform.
+Text and metadata extraction engine for AI Document Intelligence Platform.
 Supports native digital PDF text extraction via PyMuPDF (fitz) and OCR fallback
 via pytesseract / EasyOCR for scanned documents and image files.
 """

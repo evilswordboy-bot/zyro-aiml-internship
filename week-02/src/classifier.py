@@ -1,5 +1,5 @@
 """
-Document Classification Engine for Zyroo AI Document Intelligence Platform.
+Document Classification Engine for AI Document Intelligence Platform.
 Implements:
 1. Rule-based keyword matching with normalized confidence scores.
 2. Scikit-learn TF-IDF + Logistic Regression ML classifier.
@@ -59,7 +59,7 @@ TRAINING_DOCUMENTS = [
     ("Invoice 2026-004 Bill to Global Enterprise Amount Due $8,400.00 Subtotal $8,000 Tax $400 Purchase Order PO-9921 Payment due upon receipt", DOC_TYPE_INVOICE),
     ("Customer Invoice No: 7721 Date: 2026-01-15 Bill To: Apex Data Systems Items: Consulting Hours Rate: $150 Total Amount: $4,500 Paid: $0 Balance Due: $4,500", DOC_TYPE_INVOICE),
     ("Proforma Invoice Ref: PI-3021 Buyer: Horizon Tech Subtotal EUR 12,000 VAT 20% EUR 2,400 Grand Total EUR 14,400 Bank transfer remittance details below", DOC_TYPE_INVOICE),
-    ("Tax Invoice Inv No: 8812 Date: 2026-03-01 Billed to: Zyroo Technologies Services: Software Engineering Total Amount PKR 250,000 Due Date: March 31 2026", DOC_TYPE_INVOICE),
+    ("Tax Invoice Inv No: 8812 Date: 2026-03-01 Billed to: Apex Technologies Services: Software Engineering Total Amount PKR 250,000 Due Date: March 31 2026", DOC_TYPE_INVOICE),
     ("Monthly Invoice Number: INV-6002 Client: Stellar Soft Total Amount Due: $3,200.00 Payment terms: Net 15 days Thank you for your business", DOC_TYPE_INVOICE),
     
     # Resumes
@@ -69,7 +69,7 @@ TRAINING_DOCUMENTS = [
     ("Curriculum Vitae David Kim Data Scientist Work Experience Built predictive forecasting models with LightGBM and Scikit-Learn Education Master of Science in Data Science University of Washington Skills Python SQL Spark Tableau", DOC_TYPE_RESUME),
     ("Resume Priya Sharma Mobile Application Developer Experience Android Studio Kotlin Swift Flutter UI UX Design Education Bachelor of Engineering in Information Technology Achievements Published 4 apps on Google Play Store", DOC_TYPE_RESUME),
     ("Profile & Resume Marcus Vance DevOps Engineer Professional Experience CI/CD pipelines Terraform Docker Kubernetes AWS Azure Education BS Computer Information Systems Skills Linux Bash Python Prometheus Grafana", DOC_TYPE_RESUME),
-    ("Emily Zhang Curriculum Vitae Experience Junior AI Engineer Intern at Zyroo Tech Education BS Artificial Intelligence Skills Python OpenCV Scikit-Learn Hugging Face Git", DOC_TYPE_RESUME),
+    ("Emily Zhang Curriculum Vitae Experience Junior AI Engineer Intern at Apex Tech Education BS Artificial Intelligence Skills Python OpenCV Scikit-Learn Hugging Face Git", DOC_TYPE_RESUME),
     ("Resume Michael Brown Cloud Architect Experience 8 years in Enterprise Cloud Migration AWS Azure GCP Docker Kubernetes Microservices Education BS Computer Science", DOC_TYPE_RESUME),
     
     # Other / General documents

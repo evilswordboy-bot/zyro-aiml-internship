@@ -1,6 +1,6 @@
 """
-Zyroo AI/ML Internship — Streamlit Platform Entrypoint
-Seamlessly launches the Week 2 AI Document Intelligence Platform.
+AI Document Intelligence Platform — Streamlit Platform Entrypoint
+Seamlessly launches the AI Document Intelligence Platform.
 """
 
 import sys

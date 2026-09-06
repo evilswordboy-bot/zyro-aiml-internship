@@ -1,13 +1,13 @@
-# ⚡ Zyroo AI Document Intelligence Platform
+# ⚡ AI Document Intelligence Platform
 
-> **Zyroo AI/ML Internship • Task 2 — Automated Document Classification, Information Extraction & Workflow MVP**  
+> **Document Analysis & Information Extraction MVP — Automated Document Classification, Information Extraction & Workflow MVP**  
 > 🌐 **Direct Live Public URL**: **[https://joining-hiv-assignment-dry.trycloudflare.com](https://joining-hiv-assignment-dry.trycloudflare.com)**
 
 ---
 
 ## 📌 Overview
 
-The **Zyroo AI Document Intelligence Platform** is an enterprise-grade, portfolio-ready document processing MVP built for the Zyroo AI/ML Internship program. The application ingests diverse digital documents (PDFs, PNG, JPG), performs fast native text extraction with OCR fallback for scanned materials, classifies document types into **Invoice**, **Resume**, or **Other** using a hybrid Rule-Based and Machine Learning (TF-IDF + Logistic Regression) pipeline, extracts key business entities, and renders fully explainable results in an interactive SaaS-grade Streamlit interface.
+The **AI Document Intelligence Platform** is an enterprise-grade, portfolio-ready document processing MVP built for the AI & Machine Learning Engineering program. The application ingests diverse digital documents (PDFs, PNG, JPG), performs fast native text extraction with OCR fallback for scanned materials, classifies document types into **Invoice**, **Resume**, or **Other** using a hybrid Rule-Based and Machine Learning (TF-IDF + Logistic Regression) pipeline, extracts key business entities, and renders fully explainable results in an interactive SaaS-grade Streamlit interface.
 
 ---
 
@@ -36,7 +36,7 @@ This platform delivers an end-to-end processing pipeline adhering to production 
 ## ✨ Key Features
 
 - **Multi-Format Upload**: Seamless drag-and-drop support for PDF, PNG, JPG, JPEG documents.
-- **Pre-Loaded Sample Showcase**: Includes 4 synthetic test documents directly matching the Zyroo Task 2 specification:
+- **Pre-Loaded Sample Showcase**: Includes 4 synthetic test documents directly matching the standard business document specification:
   - `invoice_001.pdf`: Exact specification sample (ABC Technologies, PKR 125,000, INV-1024, dated 02-09-2026).
   - `invoice_002.pdf`: Commercial multi-item cloud infrastructure invoice ($4,850.00).
   - `resume_001.pdf`: Senior AI/ML Engineer resume with 20+ detected tech skills.
@@ -127,7 +127,7 @@ flowchart TD
 ## 📁 Project Structure
 
 ```
-zyroo-document-intelligence/
+ai-document-intelligence/
 │
 ├── app.py                      # Masterpiece Streamlit application
 ├── requirements.txt            # Pinned dependencies
@@ -145,7 +145,7 @@ zyroo-document-intelligence/
 │   └── sample_generator.py     # Synthetic test PDF document generator
 │
 ├── samples/                    # Authentic sample PDFs for evaluation
-│   ├── invoice_001.pdf         # Official Zyroo sample (ABC Technologies / PKR 125,000)
+│   ├── invoice_001.pdf         # Official Enterprise sample (ABC Technologies / PKR 125,000)
 │   ├── invoice_002.pdf         # Multi-item cloud invoice ($4,850.00)
 │   ├── resume_001.pdf          # Senior AI/ML Engineer resume
 │   └── sample_other.pdf        # Architecture memo (Other category)
@@ -164,8 +164,8 @@ zyroo-document-intelligence/
 
 ### 1. Clone or Navigate to the Repository
 ```bash
-git clone https://github.com/Sakthibalan-S/zyroo-document-intelligence.git
-cd zyroo-document-intelligence
+git clone https://github.com/Sakthibalan-S/ai-document-intelligence.git
+cd ai-document-intelligence
 ```
 
 ### 2. Create and Activate Virtual Environment
@@ -309,10 +309,8 @@ CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0
 
 ---
 
-## 👨‍💻 Author & Internship Details
+## 👨‍💻 Author & Project Details
 
-- **Intern**: Sakthibalan S
-- **Program**: Zyroo AI/ML Internship (8-Week Cohort)
-- **Task**: Task 2 — Document Intelligence Platform MVP
-- **Organization**: [Zyroo (zyroo.org)](https://zyroo.org)
-- **Community**: [Zyroo WhatsApp Community](https://chat.whatsapp.com/EfivEcFI4cJ8pWnbW9OmWh)
+- **Developer**: Sakthibalan S
+- **Role**: AI/ML Engineer & Full-Stack Developer
+- **Project**: Document Intelligence & Information Extraction Platform MVP

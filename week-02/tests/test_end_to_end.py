@@ -1,5 +1,5 @@
 """
-End-to-end integration tests for Zyroo AI Document Intelligence Platform.
+End-to-end integration tests for AI Document Intelligence Platform.
 Executes the full pipeline:
 Validation -> Extraction -> Classification -> Information Parsing -> Results Verification
 on all sample documents generated for Task 2.

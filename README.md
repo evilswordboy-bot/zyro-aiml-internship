@@ -1,7 +1,7 @@
-# ⚡ Zyroo AI/ML Internship Portfolio
+# ⚡ AI & Machine Learning Engineering Portfolio
 
-> **Comprehensive Repository for the Zyroo 8-Week AI/ML Internship Cohort**  
-> **Student / Intern:** Sakthibalan S (`evilswordboy-bot`)
+> **Production-Grade AI/ML Projects & Document Intelligence Platform**  
+> **Author / Developer:** Sakthibalan S (`evilswordboy-bot`)
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Cloudflare%20Edge-orange.svg?style=for-the-badge&logo=cloudflare)](https://joining-hiv-assignment-dry.trycloudflare.com)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue.svg?style=for-the-badge&logo=github)](https://github.com/evilswordboy-bot/zyro-aiml-internship)
@@ -49,7 +49,7 @@ The **Week 2** application is a production-grade **AI Document Intelligence & Wo
 - **Explainable AI (XAI)**: Feature importance attribution charts and class probability distributions via Plotly.
 - **Multi-Currency Entity Parsing**: Extracts Invoice Number, Date, Company, and Total Amount (PKR, USD, EUR, INR).
 - **Categorized Skills Taxonomy**: Extracts and groups resume skills into domain pills (AI/ML, Languages, Web, Cloud, Databases).
-- **1-Click Sample Showcase**: Pre-loaded with official Zyroo sample documents (`ABC Technologies`, `PKR 125,000`, `INV-1024`, `02-09-2026`).
+- **1-Click Sample Showcase**: Pre-loaded with authentic sample documents (`ABC Technologies`, `PKR 125,000`, `INV-1024`, `02-09-2026`).
 - **Data Export**: Immediate download of structured results in JSON or CSV format.
 - **Automated Tests**: 25 automated unit and end-to-end tests passing.
 
@@ -107,13 +107,12 @@ This repository is pre-configured for one-click deployment on **Streamlit Commun
 - Configured Python 3.13, Git 2.55, and virtual environment.
 - Verified AI/ML libraries: NumPy, Pandas, Scikit-Learn, Matplotlib, Seaborn.
 - Executed Logistic Regression baseline on the Iris dataset.
-- Joined official Zyroo communication channels and community.
+- Verified end-to-end environment readiness.
 
 ---
 
-## 👨‍💻 Author & Internship Details
+## 👨‍💻 Author & Project Details
 
-- **Intern:** Sakthibalan S ([GitHub: evilswordboy-bot](https://github.com/evilswordboy-bot))
-- **Program:** Zyroo AI/ML Internship (8-Week Cohort)
-- **Organization:** [Zyroo](https://zyroo.org)
-- **Community:** [Zyroo Community](https://chat.whatsapp.com/EfivEcFI4cJ8pWnbW9OmWh)
+- **Developer:** Sakthibalan S ([GitHub: evilswordboy-bot](https://github.com/evilswordboy-bot))
+- **Track:** Applied AI/ML & Full-Stack Intelligence Engineering
+- **Focus:** Document Automation, NLP, and Explainable AI Systems

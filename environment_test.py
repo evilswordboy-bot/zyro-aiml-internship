@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score
 
 
 print("=" * 60)
-print("ZYROO AI/ML INTERNSHIP - WEEK 01")
+print("AI/ML ENVIRONMENT TEST - WEEK 01")
 print("ENVIRONMENT & MACHINE LEARNING TEST")
 print("=" * 60)
 

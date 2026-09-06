@@ -1,5 +1,5 @@
 """
-Input validation module for Zyroo AI Document Intelligence Platform.
+Input validation module for AI Document Intelligence Platform.
 Enforces security constraints, allowed file extensions, size limits,
 and structural integrity checks.
 """

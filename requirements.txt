@@ -1,4 +1,4 @@
-# Zyroo AI/ML Internship — Project Dependencies
+# AI Document Intelligence Platform — Project Dependencies
 
 # Web Interface & PDF Ingestion (Week 02)
 streamlit>=1.35.0

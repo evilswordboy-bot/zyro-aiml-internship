@@ -1,6 +1,6 @@
 """
-Zyroo AI Document Intelligence Platform — Main Application
-AI/ML Internship Task 2 • Masterpiece Build
+Enterprise AI Document Intelligence Platform — Main Application
+Production-Grade Document Analysis & Information Extraction MVP
 
 Features:
 - Document Upload (.pdf, .png, .jpg, .jpeg) with full validation
@@ -35,13 +35,13 @@ from src.sample_generator import generate_samples
 
 # Configure Streamlit Page
 st.set_page_config(
-    page_title="Zyroo AI Document Intelligence Platform",
+    page_title="AI Document Intelligence Platform",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS matching Zyroo Masterpiece Theme Palette
+# Custom CSS matching Modern Theme Palette
 CUSTOM_CSS = f"""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
@@ -238,8 +238,8 @@ if "uploaded_doc_name" not in st.session_state:
 with st.sidebar:
     st.markdown(f"""
     <div style="padding: 10px 0;">
-        <h2 style="color: {THEME['primary']}; margin: 0; font-size: 1.4rem;">Zyroo Platform</h2>
-        <p style="color: #64748B; font-size: 0.85rem; margin-top: 4px;">AI/ML Internship • Task 2</p>
+        <h2 style="color: {THEME['primary']}; margin: 0; font-size: 1.4rem;">AI Doc Platform</h2>
+        <p style="color: #64748B; font-size: 0.85rem; margin-top: 4px;">Document Analysis & Extraction</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -269,7 +269,7 @@ with st.sidebar:
         st.info("PyMuPDF Direct Extraction: Active\n(OCR engine optional on host)")
 
     st.markdown("---")
-    st.markdown("### 📋 Official Task Criteria")
+    st.markdown("### 📋 System Capabilities")
     st.markdown("""
     - [x] **File Upload**: PDF, JPG, PNG
     - [x] **Text Extraction**: PyMuPDF & OCR
@@ -280,22 +280,13 @@ with st.sidebar:
     - [x] **Explainable Output & Verification**
     """)
 
-    st.markdown("---")
-    st.markdown("### 🌐 Official Zyroo Links")
-    st.markdown("""
-    - [Zyroo Website](https://zyroo.org)
-    - [Internship Programs](https://zyroo.org/internships)
-    - [Zyroo LinkedIn](https://www.linkedin.com/company/zyr0-co/)
-    - [Zyroo Community](https://chat.whatsapp.com/EfivEcFI4cJ8pWnbW9OmWh)
-    """)
-
 
 # =============================================================================
 # HERO SECTION
 # =============================================================================
 st.markdown(f"""
 <div class="hero-container">
-    <div class="badge-pill">ZYROO AI/ML TASK 2</div>
+    <div class="badge-pill">DOCUMENT INTELLIGENCE</div>
     <div class="badge-pill badge-purple">PRODUCTION MVP</div>
     <h1 class="hero-title">AI Document Intelligence & Workflow Platform</h1>
     <p class="hero-subtitle">
