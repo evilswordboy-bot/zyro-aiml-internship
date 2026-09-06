@@ -7,7 +7,7 @@
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue.svg?style=for-the-badge&logo=github)](https://github.com/evilswordboy-bot/zyro-aiml-internship)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB.svg?style=for-the-badge&logo=python)](https://www.python.org/)
 
-**🌐 Direct Live Public URL:** **[https://spaces-flyer-sticks-surgeon.trycloudflare.com](https://spaces-flyer-sticks-surgeon.trycloudflare.com)**
+**🌐 Direct Live Public URL:** https://mgb56neehcvkyzsiukg2qh.streamlit.app/
 
 ---
 
