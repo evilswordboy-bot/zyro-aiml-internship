@@ -3,11 +3,11 @@
 > **Comprehensive Repository for the Zyroo 8-Week AI/ML Internship Cohort**  
 > **Student / Intern:** Sakthibalan S (`evilswordboy-bot`)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen.svg?style=for-the-badge&logo=streamlit)](https://2a3dff92b67025.lhr.life)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Cloudflare%20Edge-orange.svg?style=for-the-badge&logo=cloudflare)](https://joining-hiv-assignment-dry.trycloudflare.com)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue.svg?style=for-the-badge&logo=github)](https://github.com/evilswordboy-bot/zyro-aiml-internship)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB.svg?style=for-the-badge&logo=python)](https://www.python.org/)
 
-**Live Public Web Application:** **[https://2a3dff92b67025.lhr.life](https://2a3dff92b67025.lhr.life)**
+**🌐 Direct Live Public URL:** **[https://joining-hiv-assignment-dry.trycloudflare.com](https://joining-hiv-assignment-dry.trycloudflare.com)**
 
 ---
 
