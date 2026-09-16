@@ -1,0 +1,13 @@
+Marcus Vance
+marcus.vance@worknet.com | +1-202-555-0182 | Austin, TX
+PROFESSIONAL RESUME
+DevOps and Cloud Systems Engineer with deep expertise in infrastructure as code, container orchestration, and automated pipelines.
+TECHNICAL PROFICIENCIES
+Cloud & Infra: AWS, GCP, Terraform, Ansible, Linux, Docker, Kubernetes
+CI/CD & Monitoring: Jenkins, GitHub Actions, Prometheus, Grafana, ELK Stack
+Scripting: Python, Shell, Bash, YAML
+EXPERIENCE
+Senior DevOps Engineer — CyberGrid Security (2020 - Present)
+Reduced deployment cycle time by 65%.
+EDUCATION
+Bachelor of Science in Information Systems, UT Austin (2015 - 2019)

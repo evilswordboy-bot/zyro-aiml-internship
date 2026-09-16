@@ -1,0 +1,6 @@
+Non-Disclosure and Confidentiality Agreement
+Between: TechInnovate Labs ('Disclosing Party')
+And: Global Ventures Partner ('Receiving Party')
+1. Confidential Information: All proprietary algorithms, customer lists, and codebases disclosed shall remain strictly confidential.
+2. Term: The obligations under this agreement shall survive for a period of three (3) years from the date of execution.
+3. Remedies: Unauthorized disclosure entitles the non-breaching party to injunctive relief.

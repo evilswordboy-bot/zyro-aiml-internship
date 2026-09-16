@@ -1,0 +1,12 @@
+Rachel Adams
+Email: rachel.adams@uxdesign.net | San Francisco, CA
+Portfolio: racheladamsdesign.com
+SUMMARY
+Senior UX Designer & Frontend Developer passionate about accessible design systems.
+SKILLS & TOOLS
+Figma, JavaScript, TypeScript, React, CSS3, HTML5, Storybook, Jest, Git
+EXPERIENCE
+Lead Product Designer — CreativeCanvas (2021 - Present)
+Designed cross-platform design system used by 50+ developers.
+EDUCATION
+BFA in Interactive Media, California College of the Arts (2017 - 2021)

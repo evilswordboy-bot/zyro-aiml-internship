@@ -1,0 +1,13 @@
+Pinnacle Consulting Partners
+124 Business Avenue, Suite 200
+TAX INVOICE
+Invoice Number: INV-9042
+Invoice Date: 18/06/2026
+Due Date: 02/07/2026
+Bill To: Vanguard Logistics Inc.
+Item: Enterprise Security Audit & Penetration Testing
+Qty: 1
+Amount: $ 3,500.00
+Infrastructure Review: $ 1,200.00
+Total Amount: $ 4,700.00
+Terms: Net 14 Days

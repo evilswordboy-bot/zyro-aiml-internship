@@ -1,0 +1,11 @@
+Karan Patel
+karan.patel@devportal.in | +91 91234 56789 | Mumbai, India
+CURRICULUM VITAE
+Backend Software Engineer with hands-on expertise in building scalable microservices and API gateways.
+TECHNICAL EXPERTISE
+Python, Django, FastAPI, PostgreSQL, Redis, Celery, Docker, Git, Linux
+WORK EXPERIENCE
+Software Developer — FinTech Solutions (2022 - Present)
+Optimized high-volume payment processing endpoints.
+EDUCATION
+B.E. in Information Technology, Mumbai University (2018 - 2022)

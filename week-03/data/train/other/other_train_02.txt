@@ -1,0 +1,6 @@
+Master Service Level Agreement (SLA)
+This Service Level Agreement ('Agreement') is entered into between Provider Inc. and Customer Corp.
+1. Scope of Services: Provider will maintain 99.9% uptime for cloud hosting services during each calendar month.
+2. Scheduled Maintenance: Routine maintenance windows occur Sundays between 02:00 UTC and 04:00 UTC with prior written notice.
+3. Penalties & Service Credits: If uptime falls below 99.0%, Customer is entitled to a 10% credit on monthly fees.
+4. Governing Law: This agreement shall be governed by the laws of California.
