@@ -3,12 +3,14 @@
 > **Production-Grade AI/ML Projects & Document Intelligence Platform**  
 > **Author / Developer:** Sakthibalan S (`evilswordboy-bot`)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Cloudflare%20Edge-orange.svg?style=for-the-badge&logo=cloudflare)](https://spaces-flyer-sticks-surgeon.trycloudflare.com)
+[![Live Demo (Cloudflare)](https://img.shields.io/badge/Live%20Demo-Cloudflare%20Edge-orange.svg?style=for-the-badge&logo=cloudflare)](https://van-indie-prepare-assistant.trycloudflare.com)
+[![Streamlit Cloud](https://img.shields.io/badge/Streamlit%20Cloud-Deployed-FF4B4B.svg?style=for-the-badge&logo=streamlit)](https://mgb56neehcvkyzsiukg2qh.streamlit.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue.svg?style=for-the-badge&logo=github)](https://github.com/evilswordboy-bot/zyro-aiml-internship)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB.svg?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Tests](https://img.shields.io/badge/tests-20%20passed-brightgreen.svg)]()
 
-**🌐 Direct Live Public URL:** https://mgb56neehcvkyzsiukg2qh.streamlit.app/
+**🌐 Public Live URL (Cloudflare Edge):** **[https://van-indie-prepare-assistant.trycloudflare.com](https://van-indie-prepare-assistant.trycloudflare.com)**  
+**🌐 Public Live URL (Streamlit Cloud):** **[https://mgb56neehcvkyzsiukg2qh.streamlit.app/](https://mgb56neehcvkyzsiukg2qh.streamlit.app/)**
 
 ---
 
