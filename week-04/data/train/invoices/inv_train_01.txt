@@ -1,0 +1,16 @@
+TechCorp Solutions Inc.
+100 Innovation Boulevard, Suite 400
+contact@techcorpsolutions.com | +1 (555) 019-2834
+INVOICE
+Invoice Number: INV-2026-001
+Date: 15/03/2026
+Due Date: 30/03/2026
+Bill To: Global Enterprises Ltd.
+Description: Cloud Architecture Consulting & Setup
+Hours: 12 hrs
+Amount: $ 1,200.00
+API Integration & Pipeline Automation: $ 250.00
+Subtotal: $ 1,450.00
+Tax (0%): $ 0.00
+Total Amount: $ 1,450.00
+Payment Terms: Net 15 days

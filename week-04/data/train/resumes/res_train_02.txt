@@ -1,0 +1,14 @@
+Sarah Jenkins
+sarah.jenkins@techmail.org | (555) 349-9201 | Seattle, WA
+github.com/sjenkins-data | linkedin.com/in/sarah-jenkins
+SUMMARY
+Experienced Data Scientist specialized in predictive modeling, feature engineering, and statistical analysis.
+TECHNICAL SKILLS
+Programming: Python, R, SQL, Bash
+Libraries: Scikit-learn, TensorFlow, XGBoost, Pandas, NumPy, Matplotlib, Seaborn
+Tools: Docker, Airflow, AWS S3, SageMaker, Git
+EXPERIENCE
+Senior Data Analyst — CloudMetrics Inc. (2022 - Present)
+Developed churn prediction models achieving 88% ROC-AUC.
+EDUCATION
+Master of Science in Data Analytics, University of Washington (2020 - 2022)

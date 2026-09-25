@@ -1,0 +1,11 @@
+Quantum Software Systems
+Tax Invoice
+Bill No: QSS-2026-44
+Issue Date: 12-05-2026
+Bill To: Horizon Media Group
+Consulting Services: Machine Learning Pipeline Deployment
+Hours: 40 hrs @ $ 100/hr
+Subtotal: $ 4,000.00
+Tax: $ 400.00
+Total Amount: $ 4,400.00
+Bank: City National Bank, Account: 48920192

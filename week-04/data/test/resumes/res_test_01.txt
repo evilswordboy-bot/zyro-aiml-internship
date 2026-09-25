@@ -1,0 +1,14 @@
+Sophia Martinez
+sophia.martinez@techhire.com | +1 (212) 555-0199 | New York, NY
+github.com/smartinez-ai | linkedin.com/in/sophia-martinez
+PROFESSIONAL SUMMARY
+Senior Machine Learning Engineer with 6 years experience building deep learning models, computer vision systems, and automated ML pipelines.
+SKILLS
+Languages: Python, C++, SQL, Julia
+Frameworks: PyTorch, TensorFlow, OpenCV, Scikit-learn, Ray, Docker, Kubernetes
+Cloud: AWS EC2, GCP Vertex AI, MLflow
+EXPERIENCE
+Staff ML Engineer — VisionTech Systems (2021 - Present)
+Led computer vision team deploying real-time video defect detection.
+EDUCATION
+Master of Science in Computer Science, Columbia University (2018 - 2020)
