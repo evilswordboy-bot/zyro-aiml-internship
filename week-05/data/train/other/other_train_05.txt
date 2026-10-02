@@ -1,0 +1,8 @@
+Standard Operating Procedure: Employee Data Privacy Policy
+Document Ref: SOP-SEC-049
+Version: 3.2
+Effective Date: August 2026
+Purpose:
+This document outlines standard security protocols for handling personal and confidential corporate information.
+All employees must use multi-factor authentication on corporate devices, encrypt sensitive attachments, and refrain from storing corporate credentials on unauthorized personal storage media.
+Violations are subject to internal audit review.

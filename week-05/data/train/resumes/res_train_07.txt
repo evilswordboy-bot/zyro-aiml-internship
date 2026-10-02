@@ -1,0 +1,9 @@
+David Miller
+Email: david.miller@techflow.io | Phone: +1 555 123 4567 | Austin, TX
+PROFESSIONAL PROFILE
+Full Stack Developer with experience building scalable enterprise SaaS systems.
+TECHNICAL SKILLS
+Python, Django, React, TypeScript, PostgreSQL, Docker, AWS
+EXPERIENCE
+Senior Backend Engineer — ScaleFlow Technologies (2022 - Present)
+Developed high-performance REST APIs and real-time event streaming pipelines.

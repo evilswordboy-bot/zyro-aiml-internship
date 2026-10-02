@@ -1,19 +1,22 @@
 """
 AI Document Intelligence & Workflow Platform — Streamlit Platform Entrypoint
-Seamlessly launches the AI Document Intelligence Platform (Week 4 Active).
+Seamlessly launches the AI Document Intelligence Platform (Week 5 Active).
 """
 
 import sys
 import os
 from pathlib import Path
 
-# Add week-04 directory to Python path
+# Add active week directory to Python path
 CURRENT_DIR = Path(__file__).resolve().parent
+WEEK5_DIR = CURRENT_DIR / "week-05"
 WEEK4_DIR = CURRENT_DIR / "week-04"
 WEEK3_DIR = CURRENT_DIR / "week-03"
 WEEK2_DIR = CURRENT_DIR / "week-02"
 
-if WEEK4_DIR.exists():
+if WEEK5_DIR.exists():
+    target_dir = WEEK5_DIR
+elif WEEK4_DIR.exists():
     target_dir = WEEK4_DIR
 elif WEEK3_DIR.exists():
     target_dir = WEEK3_DIR

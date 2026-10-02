@@ -1,0 +1,9 @@
+Nexus Office Supplies
+Commercial Bill / Invoice #: NOS-9042
+Dated: 05-02-2026
+Customer: Zenith Labs
+Items: Ergonomic Desks (x5): $ 1,500.00
+Monitor Arms (x10): $ 600.00
+Sales Tax (8%): $ 168.00
+Total Balance Due: $ 2,268.00
+Payment Received: $ 0.00

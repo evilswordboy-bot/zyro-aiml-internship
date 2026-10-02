@@ -1,0 +1,11 @@
+Emily Zhang
+emily.zhang@aimodel.io | +91 88776 65544 | Hyderabad, India
+PROFILE
+Machine Learning Researcher passionate about Natural Language Processing, Transformer architectures, and Large Language Models.
+CORE SKILLS
+Python, PyTorch, Hugging Face Transformers, Spacy, NLTK, Scikit-learn, Vector DBs, MLflow, Linux, Git
+WORK EXPERIENCE
+ML Engineer — NeuralFlow AI (2023 - Present)
+Fine-tuned domain-specific NLP models for semantic search.
+EDUCATION
+B.Tech in Artificial Intelligence, IIT Hyderabad (2019 - 2023)

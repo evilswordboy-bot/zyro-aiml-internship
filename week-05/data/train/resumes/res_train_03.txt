@@ -1,0 +1,13 @@
+David Kumar
+david.kumar@devmail.com | +1 (415) 890-1234 | San Francisco, CA
+CURRICULUM VITAE
+Full Stack Software Developer with 5 years building high-concurrency distributed web platforms and REST microservices.
+SKILLS
+Languages: Python, Go, TypeScript, Java
+Frontend & Backend: React, Node.js, FastAPI, Django, GraphQL
+Databases & Cloud: PostgreSQL, Redis, Kubernetes, AWS, Terraform, CI/CD
+EXPERIENCE
+Software Engineer — ScaleUp Labs (2021 - Present)
+Architected microservices handling 20,000 requests per second.
+EDUCATION
+BS in Computer Science, UC Berkeley (2016 - 2020)

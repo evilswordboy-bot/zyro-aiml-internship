@@ -1,0 +1,8 @@
+Academic Journal Call for Papers: Artificial Intelligence & Society
+Special Issue on Ethical Machine Learning and Document Intelligence.
+Submissions are invited on topics including:
+- Algorithmic transparency in automated classification
+- Fairness and bias mitigation in recruitment NLP models
+- Privacy-preserving optical character recognition
+Submission Deadline: November 30, 2026
+Formatting: IEEE two-column format, maximum 8 pages.

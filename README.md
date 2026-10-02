@@ -7,7 +7,7 @@
 [![Streamlit Cloud](https://img.shields.io/badge/Streamlit%20Cloud-Deployed-FF4B4B.svg?style=for-the-badge&logo=streamlit)](https://mgb56neehcvkyzsiukg2qh.streamlit.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue.svg?style=for-the-badge&logo=github)](https://github.com/evilswordboy-bot/zyro-aiml-internship)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB.svg?style=for-the-badge&logo=python)](https://www.python.org/)
-[![Tests](https://img.shields.io/badge/tests-43%20passed-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/tests-78%20passed-brightgreen.svg)]()
 
 **🌐 Public Live URL (Cloudflare Edge):** **[https://incorporated-attempted-lucy-trusts.trycloudflare.com](https://incorporated-attempted-lucy-trusts.trycloudflare.com)**  
 **🌐 Public Live URL (Streamlit Cloud):** **[https://mgb56neehcvkyzsiukg2qh.streamlit.app/](https://mgb56neehcvkyzsiukg2qh.streamlit.app/)**
@@ -36,22 +36,31 @@ zyro-aiml-internship/
 │   ├── src/                     # Classifier, OCR, cleaner, evaluator
 │   └── data/                    # Labeled training and test datasets
 │
-├── week-04/                     # Week 4: Persistent AI Document Platform (Active Milestone)
+├── week-04/                     # Week 4: Persistent AI Document Platform
 │   ├── app.py                   # Modern SaaS Multi-Tab Interface
 │   ├── database/                # SQLite connection manager, WAL mode, CRUD & search queries
-│   │   └── db.py
-│   ├── services/                # Hashing, file storage, validation, pipeline orchestrator
-│   │   ├── hashing.py           # SHA-256 cryptographic digest computation
-│   │   ├── file_storage.py      # Categorized folder vault & path traversal guard
-│   │   ├── validation.py        # File type whitelist & upload size limit (<20MB)
-│   │   └── document_processor.py# Full pipeline controller
+│   ├── services/                # SHA-256 deduplication, file vault, validation, pipeline
 │   ├── models/                  # DocumentRecord dataclass & status constants
 │   ├── storage/                 # Physical file vault (invoices/, resumes/, other/)
-│   ├── data/                    # Persistent SQLite database (documents.db)
-│   ├── samples/                 # Verified test documents
 │   └── tests/                   # 43 automated pytest unit & acceptance tests
 │
-├── app.py                       # Root Streamlit router (direct deployment to Streamlit Cloud)
+├── week-05/                     # Week 5: Advanced Document Workflow & Automation (Active Milestone)
+│   ├── app.py                   # Enterprise 9-View Workflow Platform Dashboard
+│   ├── database.py              # Top-level bridge to DatabaseManager & schema migrations
+│   ├── storage.py               # Top-level bridge to FileStorageManager
+│   ├── processor.py             # Top-level bridge to DocumentProcessor
+│   ├── validator.py             # Advanced Document Validation Engine & currency parser
+│   ├── workflow.py              # Finite State Machine & Rule-Based Routing Engine
+│   ├── audit.py                 # Immutable Audit Logging Service & chronological timelines
+│   ├── batch.py                 # Fault-Tolerant Batch Processor with isolated error boundaries
+│   ├── services/                # Modular engine services (validation, workflow, audit, batch)
+│   ├── database/                # SQLite migrations, WAL mode, audit_logs table, indices
+│   ├── models/                  # DocumentRecord dataclass & Week 5 controlled statuses
+│   ├── storage/                 # Segregated physical vault
+│   ├── samples/                 # 12 realistic edge-case sample PDFs
+│   └── tests/                   # 78 comprehensive pytest unit & acceptance tests
+│
+├── app.py                       # Root Streamlit router (routes to week-05 primary)
 ├── requirements.txt             # Root deployment requirements
 ├── run_offline.bat              # Root 1-click offline launcher
 ├── .gitignore                   # Standard Python/IDE exclusions
@@ -60,19 +69,23 @@ zyro-aiml-internship/
 
 ---
 
-## 🌟 Week 04: AI Document Intelligence & Workflow Platform (Current Active Version)
+## 🌟 Week 05: Advanced Document Workflow & Automation (Current Active Version)
 
-The **Week 4** platform elevates document understanding into an industrial, persistent document management and audit platform:
+The **Week 5** platform transforms document management into an automated, auditable, human-in-the-loop document lifecycle pipeline:
 
-### Key Enhancements in Week 04:
-- **Persistent SQLite Document Repository (`data/documents.db`)**: Complete metadata indexing, WAL mode for concurrent access, and parameterized queries.
-- **Cryptographic SHA-256 Deduplication**: Computes raw byte digests to identify and suppress redundant file writes and database entries.
-- **Categorized Physical Vault (`storage/`)**: Segregated document storage (`invoices/`, `resumes/`, `other/`) with unique sanitized naming and strict path traversal defense.
-- **Fast Multi-Field Search**: Parameterized search across Original Filename, Company, Invoice Number, Candidate Name, Category, and Text Preview.
-- **Dynamic Filters & Sorting**: Instant filtering by Category, Status (`Processed`, `Needs Review`, `Failed`), and chronological ordering.
-- **Detailed Document Inspection & Vault Download**: Deep inspection modal showing cryptographic hash, extracted entities, and one-click file download.
-- **Preserved Week 3 AI Core**: Full TF-IDF + Logistic Regression, Linear SVM, Naive Bayes, image-preprocessed OCR fallback, and regex entity extraction.
-- **43 Automated Tests**: 100% test pass rate across database CRUD, storage security, duplicate detection, and acceptance test matrices.
+### 🔄 End-to-End Document Workflow
+```
+UPLOAD ──▶ PROCESS ──▶ CLASSIFY ──▶ EXTRACT ──▶ VALIDATE ──▶ APPLY RULES ──▶ REVIEW / APPROVE / REJECT ──▶ COMPLETE ──▶ AUDIT LOG
+```
+
+### Key Capabilities in Week 05:
+- **Controlled Finite State Machine**: Enforces valid status transitions across `New`, `Processing`, `Needs Review`, `Approved`, `Rejected`, `Completed`, `Failed`, strictly rejecting invalid state jumps.
+- **Advanced Document Validation Engine (`validator.py`)**: Multi-currency amount parsing (`$ 1,450.00`, `Rs. 78,500`, `€ 999.00`), invoice number verification, RFC-compliant email regex, 10–15 digit phone check, and skills detection.
+- **Rule-Based Workflow Engine (`workflow.py`)**: Automatic straight-through routing to `Approved`/`Completed` for high-confidence, perfectly validated files; flags missing/invalid fields and low confidence into `Needs Review`.
+- **Human Review Queue**: Dedicated interactive triage workspace for reviewers to inspect documents, view structured validation failure badges, approve directly, or **reject with a mandatory explanation note**.
+- **Fault-Tolerant Batch Processing (`batch.py`)**: Ingests multiple heterogeneous files concurrently with isolated try/except error boundaries so corrupted files never halt or crash batch ingestion.
+- **Immutable Audit Logging System (`audit.py`)**: Tracks every automated transition, confidence score, validation failure, reviewer approval/rejection note, and timestamp in a queryable `audit_logs` SQLite table.
+- **78 Automated Tests**: 100% test pass rate across unit tests, service tests, integration tests, and the Week 5 acceptance test matrix.
 
 ---
 
@@ -97,9 +110,9 @@ pip install -r requirements.txt
 
 ### 3. Run Automated Tests
 ```bash
-python -m pytest week-04/tests/ -v
+python -m pytest week-05/tests/ -v
 ```
-*Expected: **43 passed** in ~6.2s*
+*Expected: **78 passed** in ~9.8s*
 
 ### 4. Run the Web Application
 ```bash
