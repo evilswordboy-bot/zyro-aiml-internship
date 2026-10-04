@@ -1,0 +1,13 @@
+Apex Retailers Pvt Ltd
+Plot 42, Industrial Area, Phase II
+GSTIN: 29AAAAA0000A1Z5 | contact@apexretailers.in
+TAX INVOICE
+Invoice No: INV-8832
+Date: 2026-04-10
+Bill Reference: BR-449
+Customer Details: Sharma Electronics
+Item Particulars: Enterprise Server Rack Unit - Qty 1 - Amount 65,000
+Managed Gigabit Network Switch - Qty 2 - Amount 13,500
+Amount Due: Rs. 78,500
+Total Amount: Rs. 78,500
+Terms: Payment due within 7 days of invoice generation.

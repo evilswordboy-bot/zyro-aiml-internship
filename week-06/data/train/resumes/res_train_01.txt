@@ -1,0 +1,14 @@
+Alex Smith
+Email: alex.smith@email.com | Phone: +91 98765 43210 | Bengaluru, India
+LinkedIn: linkedin.com/in/alexsmith-ai | GitHub: github.com/alexsmith
+PROFESSIONAL SUMMARY
+Results-driven AI/ML Engineer with 3+ years of experience designing and deploying end-to-end machine learning workflows, document intelligence pipelines, and interactive web applications.
+SKILLS & TECHNICAL EXPERTISE
+Languages: Python, SQL, JavaScript, C++
+Frameworks & Tools: Streamlit, PyMuPDF, Scikit-learn, PyTorch, Docker, FastAPI, Pandas, Git
+Core Competencies: Document Intelligence, Natural Language Processing, OCR, Computer Vision
+WORK EXPERIENCE
+AI Engineer — DataVibe Systems (2023 - Present)
+Built automated document intelligence systems processing thousands of invoices and PDFs weekly.
+EDUCATION
+Bachelor of Engineering in Computer Science, VTU (2017 - 2021)

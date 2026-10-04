@@ -7,10 +7,12 @@
 [![Streamlit Cloud](https://img.shields.io/badge/Streamlit%20Cloud-Deployed-FF4B4B.svg?style=for-the-badge&logo=streamlit)](https://mgb56neehcvkyzsiukg2qh.streamlit.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue.svg?style=for-the-badge&logo=github)](https://github.com/evilswordboy-bot/zyro-aiml-internship)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB.svg?style=for-the-badge&logo=python)](https://www.python.org/)
-[![Tests](https://img.shields.io/badge/tests-78%20passed-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/tests-105%20passed-brightgreen.svg)]()
 
 **🌐 Public Live URL (Cloudflare Edge):** **[https://incorporated-attempted-lucy-trusts.trycloudflare.com](https://incorporated-attempted-lucy-trusts.trycloudflare.com)**  
-**🌐 Public Live URL (Streamlit Cloud):** **[https://mgb56neehcvkyzsiukg2qh.streamlit.app/](https://mgb56neehcvkyzsiukg2qh.streamlit.app/)**
+**🌐 Public Live URL (Streamlit Cloud):** **[https://mgb56neehcvkyzsiukg2qh.streamlit.app/](https://mgb56neehcvkyzsiukg2qh.streamlit.app/)**  
+**📂 Primary Codebase:** [evilswordboy-bot/ai-document-intelligence](https://github.com/evilswordboy-bot/ai-document-intelligence)  
+**📂 Internship Portfolio:** [evilswordboy-bot/zyro-aiml-internship](https://github.com/evilswordboy-bot/zyro-aiml-internship) (Week 6 active)
 
 ---
 
@@ -44,7 +46,7 @@ zyro-aiml-internship/
 │   ├── storage/                 # Physical file vault (invoices/, resumes/, other/)
 │   └── tests/                   # 43 automated pytest unit & acceptance tests
 │
-├── week-05/                     # Week 5: Advanced Document Workflow & Automation (Active Milestone)
+├── week-05/                     # Week 5: Advanced Document Workflow & Automation
 │   ├── app.py                   # Enterprise 9-View Workflow Platform Dashboard
 │   ├── database.py              # Top-level bridge to DatabaseManager & schema migrations
 │   ├── storage.py               # Top-level bridge to FileStorageManager
@@ -53,14 +55,27 @@ zyro-aiml-internship/
 │   ├── workflow.py              # Finite State Machine & Rule-Based Routing Engine
 │   ├── audit.py                 # Immutable Audit Logging Service & chronological timelines
 │   ├── batch.py                 # Fault-Tolerant Batch Processor with isolated error boundaries
-│   ├── services/                # Modular engine services (validation, workflow, audit, batch)
-│   ├── database/                # SQLite migrations, WAL mode, audit_logs table, indices
-│   ├── models/                  # DocumentRecord dataclass & Week 5 controlled statuses
-│   ├── storage/                 # Segregated physical vault
-│   ├── samples/                 # 12 realistic edge-case sample PDFs
 │   └── tests/                   # 78 comprehensive pytest unit & acceptance tests
 │
-├── app.py                       # Root Streamlit router (routes to week-05 primary)
+├── week-06/                     # Week 6: Final Integration, Optimization & Completion (CURRENT ACTIVE)
+│   ├── app.py                   # Complete 10-View Enterprise Platform Dashboard
+│   ├── anomaly.py               # Financial Consistency & Anomaly Engine Bridge
+│   ├── rag.py                   # Grounded RAG & AI Document Assistant Bridge
+│   ├── config.py                # Centralized Environment & Security Configuration
+│   ├── .env.example             # Documented Configuration Parameters
+│   ├── database.py              # SQLite DatabaseManager with Week 6 Schemas & Latency tracking
+│   ├── storage.py               # Cryptographic SHA-256 Partitioned File Vault
+│   ├── processor.py             # Full-Lifecycle Intake, Profiling & Audit Orchestrator
+│   ├── validator.py             # Format & Entity Validation Engine
+│   ├── workflow.py              # Finite State Machine & High-Severity Anomaly Router
+│   ├── audit.py                 # Immutable Audit Logging System
+│   ├── batch.py                 # Fault-Tolerant High-Throughput Batch Processor
+│   ├── services/                # Modular Services (anomaly, rag, audit, batch, workflow, storage)
+│   ├── src/                     # Machine Learning, OCR, RAG Engine, Cleaners & Evaluators
+│   ├── samples/                 # 14 authentic test PDFs (including arithmetic mismatch edge cases)
+│   └── tests/                   # 105 automated unit, service, and acceptance tests (100% pass)
+│
+├── app.py                       # Root Streamlit router (routes to week-06 primary)
 ├── requirements.txt             # Root deployment requirements
 ├── run_offline.bat              # Root 1-click offline launcher
 ├── .gitignore                   # Standard Python/IDE exclusions
@@ -69,23 +84,35 @@ zyro-aiml-internship/
 
 ---
 
-## 🌟 Week 05: Advanced Document Workflow & Automation (Current Active Version)
+## 🏆 Week 06: Final Integration, Optimization & Project Completion (Current Active Version)
 
-The **Week 5** platform transforms document management into an automated, auditable, human-in-the-loop document lifecycle pipeline:
+The **Week 6** platform represents the final integrated version of the **AI Document Intelligence & Workflow Platform**:
 
-### 🔄 End-to-End Document Workflow
-```
-UPLOAD ──▶ PROCESS ──▶ CLASSIFY ──▶ EXTRACT ──▶ VALIDATE ──▶ APPLY RULES ──▶ REVIEW / APPROVE / REJECT ──▶ COMPLETE ──▶ AUDIT LOG
-```
+$$\text{Upload} \longrightarrow \text{Validate} \longrightarrow \text{OCR / Text Extraction} \longrightarrow \text{Classify} \longrightarrow \text{Extract} \longrightarrow \text{Store} \longrightarrow \text{Verify} \longrightarrow \text{Anomaly Check} \longrightarrow \text{AI RAG} \longrightarrow \text{Workflow Decision} \longrightarrow \text{Review / Approve / Reject} \longrightarrow \text{Audit} \longrightarrow \text{Search / Report}$$
 
-### Key Capabilities in Week 05:
-- **Controlled Finite State Machine**: Enforces valid status transitions across `New`, `Processing`, `Needs Review`, `Approved`, `Rejected`, `Completed`, `Failed`, strictly rejecting invalid state jumps.
-- **Advanced Document Validation Engine (`validator.py`)**: Multi-currency amount parsing (`$ 1,450.00`, `Rs. 78,500`, `€ 999.00`), invoice number verification, RFC-compliant email regex, 10–15 digit phone check, and skills detection.
-- **Rule-Based Workflow Engine (`workflow.py`)**: Automatic straight-through routing to `Approved`/`Completed` for high-confidence, perfectly validated files; flags missing/invalid fields and low confidence into `Needs Review`.
-- **Human Review Queue**: Dedicated interactive triage workspace for reviewers to inspect documents, view structured validation failure badges, approve directly, or **reject with a mandatory explanation note**.
-- **Fault-Tolerant Batch Processing (`batch.py`)**: Ingests multiple heterogeneous files concurrently with isolated try/except error boundaries so corrupted files never halt or crash batch ingestion.
-- **Immutable Audit Logging System (`audit.py`)**: Tracks every automated transition, confidence score, validation failure, reviewer approval/rejection note, and timestamp in a queryable `audit_logs` SQLite table.
-- **78 Automated Tests**: 100% test pass rate across unit tests, service tests, integration tests, and the Week 5 acceptance test matrix.
+### Key Capabilities in Week 06:
+- **Financial Consistency & Anomaly Engine (`anomaly.py`)**:
+  - Automatically verifies invoice arithmetic: $|\text{subtotal} + \text{tax} - \text{total}| \le \$0.05$. Mathematical discrepancies trigger high-severity anomalies routing documents directly to `Needs Review`.
+  - Flags suspicious / outlier amounts ($< \$0$ or $> \$1,000,000$).
+  - Validates dates against future thresholds ($> 365$ days).
+  - Inspects text quality for corrupted OCR artifacts or excessive noise.
+- **Grounded RAG & AI Document Assistant (`rag.py`)**:
+  - Semantic chunking with configurable overlap.
+  - TF-IDF vector space modeling with cosine similarity ranking.
+  - Multi-document grounded question answering with exact source citations: `[Filename] (Page X, Chunk Y) | Relevance: Z%`.
+  - **Strict Anti-Hallucination Guardrail**: Queries with insufficient grounded context deterministically return:
+    > *"The available documents do not contain sufficient information to answer this question."*
+- **End-to-End Latency Tracking**:
+  - Microsecond-accurate profiling (`processing_time_ms`) logged for all documents and visible on dashboard KPI cards and document detail views.
+- **Controlled Finite State Machine & Human Review Queue**:
+  - Strict states: `New`, `Processing`, `Needs Review`, `Approved`, `Rejected`, `Completed`.
+  - Enforces mandatory reviewer notes on rejection.
+- **Security Hardening**:
+  - Centralized `config.py` with environment variable loading and sensible defaults.
+  - Path traversal defense preventing writes outside the designated storage root.
+  - File format whitelisting and friendly sanitized error shields.
+- **105 Automated Tests (100% Pass Rate)**:
+  - 105 tests across 16 test suites passing in ~11 seconds, including all 14 mandatory Week 6 production acceptance test scenarios.
 
 ---
 
@@ -100,40 +127,28 @@ cd zyro-aiml-internship
 ### 2. Set Up Virtual Environment & Dependencies
 ```bash
 python -m venv .venv
-# On Windows:
+# Windows:
 .venv\Scripts\activate
-# On Linux/macOS:
+# Linux/macOS:
 source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
 
-### 3. Run Automated Tests
+### 3. Run All Automated Tests
 ```bash
-python -m pytest week-05/tests/ -v
+pytest week-06/tests/ -v
 ```
-*Expected: **78 passed** in ~9.8s*
 
-### 4. Run the Web Application
+### 4. Launch the Platform
 ```bash
 streamlit run app.py
 ```
-Or double-click **`run_offline.bat`** on Windows. Open **`http://localhost:8501`** in your browser.
 
 ---
 
-## 🌐 Public Deployment on Streamlit Community Cloud
-
-This repository is pre-configured for one-click deployment on **Streamlit Community Cloud**:
-
-1. Log in to [share.streamlit.io](https://share.streamlit.io) using your GitHub account (`evilswordboy-bot`).
-2. Select repository: `evilswordboy-bot/zyro-aiml-internship`.
-3. Branch: `main` | Main file path: `app.py`.
-4. Click **"Deploy!"**.
-
----
-
-## 👨‍💻 Author & Project Details
-
-- **Developer:** Sakthibalan S ([GitHub: evilswordboy-bot](https://github.com/evilswordboy-bot))
-- **Track:** Applied AI/ML & Document Intelligence Engineering
+## 👨‍💻 Author & Intern Information
+* **Developer:** Sakthibalan S
+* **GitHub Profile:** [@evilswordboy-bot](https://github.com/evilswordboy-bot)
+* **Program:** ZYROO AI/ML Internship
+* **Final Milestone:** Week 6 — Final Integration, Optimization & Project Completion

@@ -1,0 +1,10 @@
+CloudWorks Infrastructure LLC
+450 Silicon Avenue, San Jose, CA
+INVOICE STATEMENT
+Date: 2026-05-18
+Invoice Number: INV-9901
+Client: Velocity Networks Inc.
+Kubernetes Cluster Management: $ 2,800.00
+Terraform Infrastructure Provisioning: $ 400.00
+Total Amount: $ 3,200.00
+Wire transfer details enclosed.

@@ -1,0 +1,9 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+Confidentiality and Proprietary Information Protection Agreement
+1. Parties and Purpose:
+This Agreement is entered into by and between the Disclosing Party and the Receiving Party.
+The purpose is to explore prospective technology collaboration and commercial partnership.
+2. Confidential Information Definition:
+All technical designs, software code, algorithmic models, and business specifications shall remain confidential.
+Term of Obligation: Three (3) years from the effective date of execution.
+Governing Law & Jurisdiction: This agreement shall be governed by the laws of the State of California.

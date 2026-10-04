@@ -1,0 +1,11 @@
+Priya Sharma
+Email: priya.sharma@cloudtech.io | Phone: +91 99887 76655 | Pune, India
+SUMMARY
+Lead Cloud Architect with deep expertise in distributed microservices and container orchestration.
+CORE SKILLS & TECHNOLOGIES
+Go, Python, Kubernetes, Terraform, AWS, Docker, gRPC, Redis, Kafka
+EXPERIENCE
+Principal Cloud Architect — Infinicloud Systems (2020 - Present)
+Architected multi-region Kubernetes clusters serving 10M daily active requests.
+EDUCATION
+Master of Technology in Software Engineering, IIT Bombay
